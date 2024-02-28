@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "calculatorResistor",
-    "slug": "calculatorResistor",
+    "name": "Resistor Math",
+    "slug": "resistormath",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#4169E1"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.devsntosx71.resistormath"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0f6427ae-26f1-4eac-a073-ac0c1f0e30f7"
+      }
     }
   }
 }
